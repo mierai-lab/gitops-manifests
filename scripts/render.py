@@ -15,7 +15,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # appdesc (python3 -I does not add the script's dir)
 
-REPO = "https://github.com/MIERAI/gitops-manifests.git"
+REPO = "https://github.com/mierai-lab/gitops-manifests.git"
 
 
 def apps(root="."):

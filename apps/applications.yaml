@@ -20,7 +20,7 @@ spec:
           - matrix:
               generators:
                 - git:
-                    repoURL: https://github.com/MIERAI/gitops-manifests.git
+                    repoURL: https://github.com/mierai-lab/gitops-manifests.git
                     revision: main
                     files: [{ path: "*/app.yaml" }]
                 # prefixed keys: the app, the component and the environment all have a name
@@ -44,7 +44,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/MIERAI/gitops-manifests.git
+        repoURL: https://github.com/mierai-lab/gitops-manifests.git
         targetRevision: main
       destination:
         server: https://kubernetes.default.svc
