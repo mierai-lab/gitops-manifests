@@ -7,4 +7,5 @@ replicas:
     count: 2   # a canary at 50% = 1 of 2 pods
 images:
   - name: ghcr.io/mierai/sample-app
-    newTag: "1498189"
+    newName: ghcr.io/mierai-lab/sample-app
+    newTag: "fce142d"
